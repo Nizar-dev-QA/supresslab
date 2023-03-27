@@ -40,7 +40,7 @@
     },
     {
         "matchConfidence": ["low"],
-        "enabled" :false
+        "enabled" :true
     },
     {
         "matchConfidence": ["neutral"],
