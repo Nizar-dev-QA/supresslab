@@ -28,6 +28,20 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
+    },
+    "enableRenovate": true,
+    "extends": ["github>whitesource/merge-confidence:beta"],
+  
+  "dependencyDashboard" :true,
+  "packageRules": [
+    {
+      "matchConfidence": ["very high"],
+        "automerge": true
+    },
+    {
+        "matchConfidence": ["low"],
+        "enabled" :false
     }
+  ]
   }
 }
