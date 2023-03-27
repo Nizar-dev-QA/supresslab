@@ -43,8 +43,8 @@
         "enabled" :true
     },
     {
-        "matchConfidence": ["neutral"],
-        "addLabels": ["this is neutral"]
+        "matchConfidence": ["neutral" , "low" , "high" , "very high"],
+        "addLabels": ["this is matchConfidence"]
     }
   ]
   }
