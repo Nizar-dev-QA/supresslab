@@ -1,0 +1,22 @@
+ {
+   "extends": ["github>whitesource/merge-confidence:beta"],
+  
+  "dependencyDashboard" :true,
+  "packageRules": [
+    {
+      "matchConfidence": ["very high"],
+        "automerge": false
+    },
+    
+    {
+      "matchConfidence": ["low", "neutral"],
+      "dependencyDashboardApproval": true,
+      "commitMessagePrefix": "![confidence](https://badges.renovateapi.com/packages/{{datasource}}/{{replace '/' '%2f' depName}}/{{{toVersion}}}/confidence-slim/{{{fromVersion}}})  "
+    },
+    
+    {
+        "matchConfidence": ["neutral" , "low" , "high" , "very high"],
+        "addLabels": ["this is matchConfidence"]
+    }
+  ]
+ }
