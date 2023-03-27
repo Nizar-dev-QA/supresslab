@@ -41,7 +41,9 @@
     {
         "matchConfidence": ["low"],
         "enabled" :false
-    }
+    },
+        "matchConfidence": ["neutral"],
+        "addLabels": ["this is neutral"]
   ]
   }
 }
