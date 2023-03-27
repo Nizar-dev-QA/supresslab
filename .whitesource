@@ -36,7 +36,7 @@
   "packageRules": [
     {
       "matchConfidence": ["very high"],
-        "automerge": true
+        "automerge": false
     },
     {
         "matchConfidence": ["low"],
