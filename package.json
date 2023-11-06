@@ -23,6 +23,6 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jest": "27.1.6",
     "got": "11.8.6",
-    "nanoid": "3.3.4"
+    "nanoid": "3.3.7"
   }
 }
